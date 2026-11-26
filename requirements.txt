@@ -1,0 +1,11 @@
+# Python 3.14; the reward metrics need the separate environment in requirements-rewards.txt
+torch==2.9.0
+torchvision==0.24.0
+diffusers==0.35.2
+transformers==4.57.3
+huggingface-hub==0.36.0
+accelerate==1.12.0
+peft==0.18.0
+torchmetrics==1.8.2
+numpy==2.3.4
+pillow==12.0.0

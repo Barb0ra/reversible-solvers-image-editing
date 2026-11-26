@@ -1,0 +1,15 @@
+Parts of this repository are adapted from the following projects.
+
+BELM (https://github.com/zituitui/BELM): pipeline.py, samplers/common.py,
+samplers/ddim.py, samplers/edict.py, samplers/bdia.py, samplers/belm.py.
+MIT License, Copyright (c) 2024 FoundationVision.
+
+DPM-Solver (https://github.com/LuChengTHU/dpm-solver): samplers/continuous_time.py.
+MIT License, Copyright (c) 2022 Cheng Lu.
+
+Both are distributed under the MIT License, with the same permission notice as
+in the LICENSE file of this repository.
+
+PnPInversion (https://github.com/cure-lab/PnPInversion): metrics_calculator.py
+and the metric definitions in evaluate.py follow its evaluation code for
+PIE-Bench.
